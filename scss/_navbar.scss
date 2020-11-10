@@ -1,0 +1,53 @@
+// Navbar
+
+.main-nav {
+  background: #0f0f0f;
+
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    border-bottom: 2px solid #fffefa;
+    #logo-svg {
+      position: relative;
+      align-self: center;
+      display: inline-block;
+      width: 8%;
+      height: auto;
+    }
+    .nav-links {
+      display: flex;
+      flex-direction: row;
+      background: #ffefca;
+      padding: 0.2rem 1rem;
+      margin: 2rem;
+      align-items: center;
+      border-radius: 15px;
+
+      li {
+        margin-right: 1.2rem;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+      a {
+        color: #bc592c;
+      }
+    }
+
+    .social-icons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  li {
+    list-style: none;
+    margin-left: 1rem;
+    a {
+      text-decoration: none;
+      color: #8a785d;
+    }
+  }
+}

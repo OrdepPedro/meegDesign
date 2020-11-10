@@ -1,0 +1,38 @@
+.footer {
+  text-align: center;
+  background-color: #e9927b;
+
+  &-tagline {
+    color: #fff;
+    padding: 1rem 0 2rem 0;
+  }
+
+  &-contact {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    a {
+      display: block;
+      color: #fff;
+      margin: 0.6rem;
+      i {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+  &-phrase {
+    color: #fff;
+    margin-bottom: 0.8rem;
+  }
+
+  &-icons {
+    padding-bottom: 1rem;
+    .fab {
+      display: inline-block;
+      color: #bc592c;
+      border-radius: 50%;
+      background-color: #ffefca;
+      padding: 10px;
+    }
+  }
+}
