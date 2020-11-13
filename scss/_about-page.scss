@@ -1,0 +1,68 @@
+// About page
+
+.header-logo {
+  text-align: center;
+  //   position: relative;
+
+  .logo-svg {
+    width: 20%;
+    height: auto;
+    margin: auto;
+  }
+  .type-logo-svg {
+    .cls-1 {
+      fill: #202020;
+    }
+
+    width: 15%;
+    // position: absolute;
+    // top: 90%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    height: auto;
+    margin: auto;
+  }
+
+  .title {
+    text-transform: uppercase;
+    color: #202020;
+    margin: 2rem 0;
+    font-size: 2rem;
+  }
+}
+
+.main {
+  &-header {
+    margin-bottom: 1.5rem;
+  }
+  &-detail {
+    width: 1.5%;
+    height: auto;
+    display: inline-block;
+  }
+
+  &-title {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-left: 1.8rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+  .phrase {
+    text-align: center;
+    margin: 1rem 0;
+  }
+
+  &-tagline {
+    font-size: 2.5rem;
+    margin: 3rem 50% 2rem 0;
+    line-height: 1;
+    font-weight: 500;
+    span {
+      color: #bc592c;
+    }
+  }
+}

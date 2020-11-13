@@ -40,6 +40,44 @@
     .main-nav li a {
       text-decoration: none;
       color: #8a785d; }
+  .main-nav-inside {
+    background: none; }
+    .main-nav-inside .nav-items {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: auto;
+      border-bottom: 2px solid #fffefa; }
+      .main-nav-inside .nav-items #logo-svg {
+        position: relative;
+        align-self: center;
+        display: inline-block;
+        width: 8%;
+        height: auto; }
+      .main-nav-inside .nav-items .nav-links {
+        display: flex;
+        flex-direction: row;
+        background: #ffefca;
+        padding: 0.2rem 1rem;
+        margin: 2rem;
+        align-items: center;
+        border-radius: 15px; }
+        .main-nav-inside .nav-items .nav-links li {
+          margin-right: 1.2rem; }
+          .main-nav-inside .nav-items .nav-links li:last-child {
+            margin-right: 0; }
+        .main-nav-inside .nav-items .nav-links a {
+          color: #bc592c; }
+      .main-nav-inside .nav-items .social-icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center; }
+    .main-nav-inside li {
+      list-style: none;
+      margin-left: 1rem; }
+      .main-nav-inside li a {
+        text-decoration: none;
+        color: #8a785d; }
 
 .header-showcase {
   background: url("https://i.imgur.com/DpfuUjY.png") no-repeat center center/cover; }
@@ -200,6 +238,53 @@
       border-radius: 50%;
       background-color: #ffefca;
       padding: 10px; }
+
+.header-logo {
+  text-align: center; }
+  .header-logo .logo-svg {
+    width: 20%;
+    height: auto;
+    margin: auto; }
+  .header-logo .type-logo-svg {
+    width: 15%;
+    height: auto;
+    margin: auto; }
+    .header-logo .type-logo-svg .cls-1 {
+      fill: #202020; }
+  .header-logo .title {
+    text-transform: uppercase;
+    color: #202020;
+    margin: 2rem 0;
+    font-size: 2rem; }
+
+.main-header {
+  margin-bottom: 1.5rem; }
+
+.main-detail {
+  width: 1.5%;
+  height: auto;
+  display: inline-block; }
+
+.main-title {
+  display: inline;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-left: 1.8rem; }
+
+.main p {
+  font-size: 1.2rem; }
+
+.main .phrase {
+  text-align: center;
+  margin: 1rem 0; }
+
+.main-tagline {
+  font-size: 2.5rem;
+  margin: 3rem 50% 2rem 0;
+  line-height: 1;
+  font-weight: 500; }
+  .main-tagline span {
+    color: #bc592c; }
 
 * {
   margin: 0;
